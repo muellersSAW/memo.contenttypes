@@ -1,0 +1,24 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:zcml="http://namespaces.zope.org/zcml"
+  i18n_domain="plone">
+
+  <configure zcml:condition="installed AccessControl.security">
+  <!-- -*- extra stuff goes here -*- -->
+
+    <permission
+        id="memo.contenttypes.AddWork"
+        title="memo.contenttypes: Add Work"
+    />
+
+
+    <permission
+        id="memo.contenttypes.AddManuscript"
+        title="memo.contenttypes: Add Manuscript"
+    />
+
+
+
+  </configure>
+
+</configure>
