@@ -1,28 +1,34 @@
 <?xml version="1.0"?>
 <object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-    name="library"
+    name="libraries"
     meta_type="Dexterity FTI"
     i18n:domain="memo.contenttypes">
 
   <!-- Basic properties -->
   <property
       i18n:translate=""
-      name="title">library</property>
+      name="title">libraries</property>
   <property
       i18n:translate=""
-      name="description"></property>
+      name="description">collection of libraries</property>
 
   <property name="allow_discussion">False</property>
-  <property name="factory">library</property>
+  <property name="factory">libraries</property>
   <property name="icon_expr"></property>
   <property name="link_target"></property>
 
   <!-- Hierarchy control -->
   <property name="global_allow">True</property>
+  <property name="filter_content_types">True</property>
+  <property name="allowed_content_types">
+
+ <!--    <element value="Library" /> -->
+
+  </property>
   <!-- Schema, class and security -->
-  <property name="add_permission">memo.contenttypes.AddLibrary</property>
-  <property name="klass">plone.dexterity.content.Item</property>
-  <property name="model_file">memo.contenttypes.content:library.xml</property>
+  <property name="add_permission">memo.contenttypes.AddLibraries</property>
+  <property name="klass">plone.dexterity.content.Container</property>
+  <property name="model_file">memo.contenttypes.content:libraries.xml</property>
   <property name="model_source"></property>
   <property name="schema"></property>
 
@@ -47,10 +53,14 @@
     <!--<element value="plone.tableofcontents"/>-->
     <!--<element value="plone.versioning" />-->
     <!--<element value="plone.translatable" />-->
+    <!--<element value="plone.nextprevioustoggle" />-->
+    <!--<element value="plone.nextpreviousenabled" />-->
+    <!--<element value="plone.navigationroot" />-->
+    <!--<element value="plone.selectablecontrainstypes" />-->
   </property>
 
   <!-- View information -->
-  <property name="add_view_expr">string:${folder_url}/++add++library</property>
+  <property name="add_view_expr">string:${folder_url}/++add++libraries</property>
   <property name="default_view">view</property>
   <property name="default_view_fallback">False</property>
   <property name="immediate_view">view</property>

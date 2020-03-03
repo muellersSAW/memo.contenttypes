@@ -3,6 +3,14 @@
   <permissions>
   <!-- -*- extra stuff goes here -*- -->
 
+    <permission name="memo.contenttypes: Add Libraries" acquire="True">
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
+      <role name="Owner"/>
+      <role name="Contributor"/>
+    </permission>
+
+
     <permission name="memo.contenttypes: Add MType" acquire="True">
       <role name="Manager"/>
       <role name="Site Administrator"/>
@@ -28,30 +36,6 @@
 
 
     <permission name="memo.contenttypes: Add Author" acquire="True">
-      <role name="Manager"/>
-      <role name="Site Administrator"/>
-      <role name="Owner"/>
-      <role name="Contributor"/>
-    </permission>
-
-
-    <permission name="memo.contenttypes: Add Library" acquire="True">
-      <role name="Manager"/>
-      <role name="Site Administrator"/>
-      <role name="Owner"/>
-      <role name="Contributor"/>
-    </permission>
-
-
-    <permission name="memo.contenttypes: Add Work" acquire="True">
-      <role name="Manager"/>
-      <role name="Site Administrator"/>
-      <role name="Owner"/>
-      <role name="Contributor"/>
-    </permission>
-
-
-    <permission name="memo.contenttypes: Add Manuscript" acquire="True">
       <role name="Manager"/>
       <role name="Site Administrator"/>
       <role name="Owner"/>
