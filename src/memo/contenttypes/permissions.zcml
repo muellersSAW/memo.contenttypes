@@ -7,6 +7,36 @@
   <!-- -*- extra stuff goes here -*- -->
 
     <permission
+        id="memo.contenttypes.AddMType"
+        title="memo.contenttypes: Add MType"
+    />
+
+
+    <permission
+        id="memo.contenttypes.AddLanguage"
+        title="memo.contenttypes: Add Language"
+    />
+
+
+    <permission
+        id="memo.contenttypes.AddCategory"
+        title="memo.contenttypes: Add Category"
+    />
+
+
+    <permission
+        id="memo.contenttypes.AddAuthor"
+        title="memo.contenttypes: Add Author"
+    />
+
+
+    <permission
+        id="memo.contenttypes.AddLibrary"
+        title="memo.contenttypes: Add Library"
+    />
+
+
+    <permission
         id="memo.contenttypes.AddWork"
         title="memo.contenttypes: Add Work"
     />
