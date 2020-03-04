@@ -7,6 +7,30 @@
   <!-- -*- extra stuff goes here -*- -->
 
     <permission
+        id="memo.contenttypes.AddWorks"
+        title="memo.contenttypes: Add Works"
+    />
+
+
+    <permission
+        id="memo.contenttypes.AddCategories"
+        title="memo.contenttypes: Add Categories"
+    />
+
+
+    <permission
+        id="memo.contenttypes.AddAuthors"
+        title="memo.contenttypes: Add Authors"
+    />
+
+
+    <permission
+        id="memo.contenttypes.AddManuscripts"
+        title="memo.contenttypes: Add Manuscripts"
+    />
+
+
+    <permission
         id="memo.contenttypes.AddLibrary"
         title="memo.contenttypes: Add Library"
     />

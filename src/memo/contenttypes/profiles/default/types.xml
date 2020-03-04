@@ -9,4 +9,8 @@
   <object name="Manuscript" meta_type="Dexterity FTI"/>
   <object name="Work" meta_type="Dexterity FTI"/>
   <object name="Library" meta_type="Dexterity FTI"/>
+  <object name="manuscripts" meta_type="Dexterity FTI"/>
+  <object name="authors" meta_type="Dexterity FTI"/>
+  <object name="categories" meta_type="Dexterity FTI"/>
+  <object name="works" meta_type="Dexterity FTI"/>
 </object>

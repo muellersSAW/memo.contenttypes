@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # from plone.app.textfield import RichText
 # from plone.autoform import directives
-from plone.dexterity.content import Item
+from plone.dexterity.content import Container
 # from plone.namedfile import field as namedfile
 from plone.supermodel import model
 # from plone.supermodel.directives import fieldset
@@ -13,16 +13,15 @@ from zope.interface import implementer
 # from memo.contenttypes import _
 
 
-class ILibrary(model.Schema):
-    """ Marker interface and Dexterity Python Schema for Library
+class IAuthors(model.Schema):
+    """ Marker interface and Dexterity Python Schema for Authors
     """
     # If you want, you can load a xml model created TTW here
     # and customize it in Python:
 
-    model.load('library.xml')
+    # model.load('authors.xml')
 
     # directives.widget(level=RadioFieldWidget)
-
     # level = schema.Choice(
     #     title=_(u'Sponsoring Level'),
     #     vocabulary=LevelVocabulary,
@@ -58,7 +57,7 @@ class ILibrary(model.Schema):
     # )
 
 
-@implementer(ILibrary)
-class Library(Item):
+@implementer(IAuthors)
+class Authors(Container):
     """
     """

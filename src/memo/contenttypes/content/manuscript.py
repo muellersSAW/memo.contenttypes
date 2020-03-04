@@ -19,7 +19,7 @@ class IManuscript(model.Schema):
     # If you want, you can load a xml model created TTW here
     # and customize it in Python:
 
-    # model.load('manuscript.xml')
+    model.load('manuscript.xml')
 
     # directives.widget(level=RadioFieldWidget)
     # level = schema.Choice(

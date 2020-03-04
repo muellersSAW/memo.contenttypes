@@ -1,30 +1,36 @@
 <?xml version="1.0"?>
 <object xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-    name="Category"
+    name="works"
     meta_type="Dexterity FTI"
     i18n:domain="memo.contenttypes">
 
   <!-- Basic properties -->
   <property
       i18n:translate=""
-      name="title">Category</property>
+      name="title">works</property>
   <property
       i18n:translate=""
-      name="description"></property>
+      name="description">container for works</property>
 
   <property name="allow_discussion">False</property>
-  <property name="factory">Category</property>
+  <property name="factory">works</property>
   <property name="icon_expr"></property>
   <property name="link_target"></property>
 
   <!-- Hierarchy control -->
-  <property name="global_allow">False</property>
+  <property name="global_allow">True</property>
+  <property name="filter_content_types">True</property>
+  <property name="allowed_content_types">
+
+    <element value="Work" />
+
+  </property>
   <!-- Schema, class and security -->
-  <property name="add_permission">memo.contenttypes.AddCategory</property>
-  <property name="klass">memo.contenttypes.content.category.Category</property>
-  <property name="model_file"></property>
+  <property name="add_permission">memo.contenttypes.AddWorks</property>
+  <property name="klass">memo.contenttypes.content.works.Works</property>
+  <property name="model_file">memo.contenttypes.content:works.xml</property>
   <property name="model_source"></property>
-  <property name="schema">memo.contenttypes.content.category.ICategory</property>
+  <property name="schema"></property>
 
   <!-- Enabled behaviors -->
   <property name="behaviors" purge="false">
@@ -47,10 +53,14 @@
     <!--<element value="plone.tableofcontents"/>-->
     <!--<element value="plone.versioning" />-->
     <!--<element value="plone.translatable" />-->
+    <!--<element value="plone.nextprevioustoggle" />-->
+    <!--<element value="plone.nextpreviousenabled" />-->
+    <!--<element value="plone.navigationroot" />-->
+    <!--<element value="plone.selectablecontrainstypes" />-->
   </property>
 
   <!-- View information -->
-  <property name="add_view_expr">string:${folder_url}/++add++Category</property>
+  <property name="add_view_expr">string:${folder_url}/++add++works</property>
   <property name="default_view">view</property>
   <property name="default_view_fallback">False</property>
   <property name="immediate_view">view</property>
