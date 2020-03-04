@@ -34,18 +34,18 @@ Test Teardown  Close all browsers
 
 *** Test Cases ***************************************************************
 
-Scenario: As a site administrator I can add a work
+Scenario: As a site administrator I can add a Work
   Given a logged-in site administrator
-    and an add work form
-   When I type 'My work' into the title field
+    and an add Work form
+   When I type 'My Work' into the title field
     and I submit the form
-   Then a work with the title 'My work' has been created
+   Then a Work with the title 'My Work' has been created
 
-Scenario: As a site administrator I can view a work
+Scenario: As a site administrator I can view a Work
   Given a logged-in site administrator
-    and a work 'My work'
-   When I go to the work view
-   Then I can see the work title 'My work'
+    and a Work 'My Work'
+   When I go to the Work view
+   Then I can see the Work title 'My Work'
 
 
 *** Keywords *****************************************************************
@@ -55,11 +55,11 @@ Scenario: As a site administrator I can view a work
 a logged-in site administrator
   Enable autologin as  Site Administrator
 
-an add work form
-  Go To  ${PLONE_URL}/++add++work
+an add Work form
+  Go To  ${PLONE_URL}/++add++Work
 
-a work 'My work'
-  Create content  type=work  id=my-work  title=My work
+a Work 'My Work'
+  Create content  type=Work  id=my-work  title=My Work
 
 # --- WHEN -------------------------------------------------------------------
 
@@ -69,18 +69,18 @@ I type '${title}' into the title field
 I submit the form
   Click Button  Save
 
-I go to the work view
+I go to the Work view
   Go To  ${PLONE_URL}/my-work
   Wait until page contains  Site Map
 
 
 # --- THEN -------------------------------------------------------------------
 
-a work with the title '${title}' has been created
+a Work with the title '${title}' has been created
   Wait until page contains  Site Map
   Page should contain  ${title}
   Page should contain  Item created
 
-I can see the work title '${title}'
+I can see the Work title '${title}'
   Wait until page contains  Site Map
   Page should contain  ${title}

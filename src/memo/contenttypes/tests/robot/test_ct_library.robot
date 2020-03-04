@@ -34,18 +34,18 @@ Test Teardown  Close all browsers
 
 *** Test Cases ***************************************************************
 
-Scenario: As a site administrator I can add a library
+Scenario: As a site administrator I can add a Library
   Given a logged-in site administrator
-    and an add library form
-   When I type 'My library' into the title field
+    and an add Library form
+   When I type 'My Library' into the title field
     and I submit the form
-   Then a library with the title 'My library' has been created
+   Then a Library with the title 'My Library' has been created
 
-Scenario: As a site administrator I can view a library
+Scenario: As a site administrator I can view a Library
   Given a logged-in site administrator
-    and a library 'My library'
-   When I go to the library view
-   Then I can see the library title 'My library'
+    and a Library 'My Library'
+   When I go to the Library view
+   Then I can see the Library title 'My Library'
 
 
 *** Keywords *****************************************************************
@@ -55,11 +55,11 @@ Scenario: As a site administrator I can view a library
 a logged-in site administrator
   Enable autologin as  Site Administrator
 
-an add library form
-  Go To  ${PLONE_URL}/++add++library
+an add Library form
+  Go To  ${PLONE_URL}/++add++Library
 
-a library 'My library'
-  Create content  type=library  id=my-library  title=My library
+a Library 'My Library'
+  Create content  type=Library  id=my-library  title=My Library
 
 # --- WHEN -------------------------------------------------------------------
 
@@ -69,18 +69,18 @@ I type '${title}' into the title field
 I submit the form
   Click Button  Save
 
-I go to the library view
+I go to the Library view
   Go To  ${PLONE_URL}/my-library
   Wait until page contains  Site Map
 
 
 # --- THEN -------------------------------------------------------------------
 
-a library with the title '${title}' has been created
+a Library with the title '${title}' has been created
   Wait until page contains  Site Map
   Page should contain  ${title}
   Page should contain  Item created
 
-I can see the library title '${title}'
+I can see the Library title '${title}'
   Wait until page contains  Site Map
   Page should contain  ${title}

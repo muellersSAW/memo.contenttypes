@@ -6,4 +6,7 @@
   <object name="Language" meta_type="Dexterity FTI"/>
   <object name="MType" meta_type="Dexterity FTI"/>
   <object name="libraries" meta_type="Dexterity FTI"/>
+  <object name="Manuscript" meta_type="Dexterity FTI"/>
+  <object name="Work" meta_type="Dexterity FTI"/>
+  <object name="Library" meta_type="Dexterity FTI"/>
 </object>

@@ -7,6 +7,24 @@
   <!-- -*- extra stuff goes here -*- -->
 
     <permission
+        id="memo.contenttypes.AddLibrary"
+        title="memo.contenttypes: Add Library"
+    />
+
+
+    <permission
+        id="memo.contenttypes.AddWork"
+        title="memo.contenttypes: Add Work"
+    />
+
+
+    <permission
+        id="memo.contenttypes.AddManuscript"
+        title="memo.contenttypes: Add Manuscript"
+    />
+
+
+    <permission
         id="memo.contenttypes.AddLibraries"
         title="memo.contenttypes: Add Libraries"
     />

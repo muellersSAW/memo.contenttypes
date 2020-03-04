@@ -5,5 +5,10 @@
     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
     i18n:domain="memo.contenttypes">
   <schema>
+     <field name="test" type="zope.schema.TextLine">
+      <description>Name (or names) of the speaker</description>
+      <title>Test</title>
+      <required>False</required>
+    </field>
   </schema>
 </model>
