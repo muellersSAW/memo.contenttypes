@@ -5,5 +5,156 @@
     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
     i18n:domain="memo.contenttypes">
   <schema>
+    <field name="alternative_titles" type="zope.schema.FrozenSet">
+      <description/>
+      <required>False</required>
+      <title i18n:translate="">Alternative titles</title>
+      <value_type type="zope.schema.TextLine">
+        <title/>
+      </value_type>
+    </field>
+     <field name="origin" type="zope.schema.TextLine">
+        <description></description>
+        <title>Origin</title>
+        <required>False</required>
+    </field>
+    <field name="language_work" type="zope.schema.Choice">
+        <description i18n:translate="">Select the language of the work</description>
+        <required>False</required>
+        <title i18n:translate="">Language</title>
+        <vocabulary>collective.taxonomy.ou_types</vocabulary>
+    </field>
+    <field name="author" type="z3c.relationfield.schema.RelationChoice">
+      <description/>
+      <required>False</required>
+      <title>Author</title>
+      <source>plone.formwidget.contenttree.obj_path_src_binder</source>
+    </field>
+    <fieldset
+        name="descriptions_fieldset"
+        label="Descriptions"
+        description="">
+        <field name="material_description" type="zope.schema.TextLine">
+            <description></description>
+            <title>material description</title>
+            <required>False</required>
+        </field>
+        <field name="characteristics" type="zope.schema.TextLine">
+            <description></description>
+            <title>Characteristics</title>
+            <required>False</required>
+        </field>
+         <field name="origin_context" type="zope.schema.TextLine">
+            <description></description>
+            <title>Origin context</title>
+            <required>False</required>
+        </field>
+        <field name="note" type="zope.schema.TextLine">
+            <description></description>
+            <title>Note</title>
+            <required>False</required>
+        </field>
+    </fieldset>
+    <fieldset
+        name="editions_fieldset"
+        label="Editions and Literature"
+        description="">
+        <field name="editions" type="zope.schema.FrozenSet">
+          <description/>
+          <required>False</required>
+          <title i18n:translate="">Editions</title>
+          <value_type type="zope.schema.TextLine">
+            <title/>
+          </value_type>
+        </field>
+        <field name="literature" type="zope.schema.FrozenSet">
+          <description/>
+          <required>False</required>
+          <title i18n:translate="">Literature</title>
+          <value_type type="zope.schema.TextLine">
+            <title/>
+          </value_type>
+        </field>
+    </fieldset>
+    <fieldset
+        name="translations_fieldset"
+        label="Translations, Citations, Adaptions"
+        description="">
+        <field name="translations" type="z3c.relationfield.schema.RelationList">
+          <description/>
+          <required>False</required>
+          <title i18n:translate="">Modern translations</title>
+          <source>plone.formwidget.contenttree.obj_path_src_binder</source>
+        </field>
+        <field name="citations" type="z3c.relationfield.schema.RelationList">
+            <description>Cited in other works</description>
+            <required>False</required>
+            <title i18n:translate="">Citations</title>
+            <source>plone.formwidget.contenttree.obj_path_src_binder</source>
+        </field>
+        <field name="adaptions" type="z3c.relationfield.schema.RelationList">
+            <description></description>
+            <required>False</required>
+            <title i18n:translate="">Adaptions</title>
+            <source>plone.formwidget.contenttree.obj_path_src_binder</source>
+        </field>
+    </fieldset>
+
+    <field name="link" type="zope.schema.FrozenSet">
+      <description/>
+      <required>False</required>
+      <title i18n:translate="">Links</title>
+      <value_type type="zope.schema.URI">
+        <title/>
+      </value_type>
+    </field>
+
+    <fieldset
+        name="dating_fieldset"
+        label="Dating"
+        description="Set the datefield as string, the upper and lower bound as date">
+        <field name="date" type="zope.schema.TextLine">
+            <description>Can be something like '12th cent.' or 'around 1500'</description>
+            <title>Date</title>
+            <required>False</required>
+        </field>
+        <field name="date_from" type="zope.schema.Date">
+            <description>The lower bound of the date</description>
+            <title>Date from</title>
+            <required>False</required>
+        </field>
+         <field name="date_to" type="zope.schema.Date">
+            <description>The upper bound of the date</description>
+            <title>Date to</title>
+            <required>False</required>
+        </field>
+    </fieldset>
+
+    <fieldset
+        name="content_fieldset"
+        label="Work Content"
+        description="">
+        <field name="basic_content" type="zope.schema.Bool">
+            <description></description>
+            <title>Basic content</title>
+            <required>False</required>
+        </field>
+        <field name="incpit" type="plone.app.textfield.RichText">
+            <description></description>
+            <title>Incipit</title>
+            <required>False</required>
+        </field>
+        <field name="content" type="plone.app.textfield.RichText">
+            <description></description>
+            <title>Content</title>
+            <required>False</required>
+        </field>
+        <field name="explicit" type="plone.app.textfield.RichText">
+            <description></description>
+            <title>Explicit</title>
+            <required>False</required>
+        </field>
+    </fieldset>
+
   </schema>
 </model>

@@ -15,9 +15,20 @@
         <title>Old signature</title>
         <required>False</required>
     </field>
+    <field name="library" type="z3c.relationfield.schema.RelationChoice">
+      <description/>
+      <required>False</required>
+      <title>Library</title>
+      <source>plone.formwidget.contenttree.obj_path_src_binder</source>
+    </field>
     <field name="origin" type="zope.schema.TextLine">
         <description></description>
         <title>Origin</title>
+        <required>False</required>
+    </field>
+    <field name="history" type="plone.app.textfield.RichText">
+        <description></description>
+        <title>History</title>
         <required>False</required>
     </field>
     <field name="material_description" type="zope.schema.TextLine">
@@ -30,13 +41,43 @@
         <title>folio</title>
         <required>False</required>
     </field>
-    <field name="library" type="z3c.relationfield.schema.RelationChoice">
+    <field name="literature" type="zope.schema.FrozenSet">
       <description/>
       <required>False</required>
-      <title>Library</title>
-      <source>plone.formwidget.contenttree.obj_path_src_binder</source>
+      <title i18n:translate="">Literature</title>
+      <value_type type="zope.schema.TextLine">
+        <title/>
+      </value_type>
     </field>
 
+    <field name="link" type="zope.schema.FrozenSet">
+      <description/>
+      <required>False</required>
+      <title i18n:translate="">Links</title>
+      <value_type type="zope.schema.URI">
+        <title/>
+      </value_type>
+    </field>
+    <fieldset
+        name="dating_fieldset"
+        label="Dating"
+        description="Set the datefield as string, the upper and lower bound as date">
+        <field name="date" type="zope.schema.TextLine">
+            <description>Can be something like '12th cent.' or 'around 1500'</description>
+            <title>Date</title>
+            <required>False</required>
+        </field>
+        <field name="date_from" type="zope.schema.Date">
+            <description>The lower bound of the date</description>
+            <title>Date from</title>
+            <required>False</required>
+        </field>
+         <field name="date_to" type="zope.schema.Date">
+            <description>The upper bound of the date</description>
+            <title>Date to</title>
+            <required>False</required>
+        </field>
+    </fieldset>
 
   </schema>
 </model>

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# from plone.app.textfield import RichText
+from plone.app.textfield import RichText
 # from plone.autoform import directives
 from plone.dexterity.content import Item
 # from plone.namedfile import field as namedfile
@@ -10,7 +10,7 @@ from plone.supermodel import model
 from zope.interface import implementer
 
 
-# from memo.contenttypes import _
+from memo.contenttypes import _
 
 
 class IManuscript(model.Schema):
@@ -28,8 +28,8 @@ class IManuscript(model.Schema):
     #     required=True
     # )
 
-    # text = RichText(
-    #     title=_(u'Text'),
+    # history = RichText(
+    #     title=_(u'History'),
     #     required=False
     # )
 

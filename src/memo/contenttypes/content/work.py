@@ -19,7 +19,7 @@ class IWork(model.Schema):
     # If you want, you can load a xml model created TTW here
     # and customize it in Python:
 
-    # model.load('work.xml')
+    model.load('work.xml')
 
     # directives.widget(level=RadioFieldWidget)
     # level = schema.Choice(
