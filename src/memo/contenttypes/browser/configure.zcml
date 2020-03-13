@@ -18,4 +18,12 @@
       directory="static"
       />
 
+    <browser:page
+        name="manuscript"
+        for="*"
+        class=".views.ManuscriptView"
+        template="templates/manuscript.pt"
+        permission="zope2.View"
+        />
+
 </configure>

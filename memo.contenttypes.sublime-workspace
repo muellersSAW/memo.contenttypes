@@ -520,18 +520,140 @@
 	"buffers":
 	[
 		{
-			"file": "src/memo/contenttypes/profiles/default/types.xml",
+			"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configs/base.cfg",
 			"settings":
 			{
-				"buffer_size": 363,
+				"buffer_size": 1462,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configs/manuscript.cfg",
+			"settings":
+			{
+				"buffer_size": 583,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/memo/contenttypes/content/work.xml",
+			"settings":
+			{
+				"buffer_size": 6032,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/memo/contenttypes/interfaces.py",
+			"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configs/authors.cfg",
 			"settings":
 			{
-				"buffer_size": 266,
+				"buffer_size": 440,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configs/work.cfg",
+			"settings":
+			{
+				"buffer_size": 204,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configure.zcml",
+			"settings":
+			{
+				"buffer_size": 2198,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configs/libraries.cfg",
+			"settings":
+			{
+				"buffer_size": 631,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/blueprints.py",
+			"settings":
+			{
+				"buffer_size": 3016,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/muellers/Sources/memo_plone/Vagrantfile",
+			"settings":
+			{
+				"buffer_size": 2676,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/muellers/Sources/memo_plone/manifests/install_plone.sh",
+			"settings":
+			{
+				"buffer_size": 2224,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/muellers/Sources/memo_plone/plone/src/collective.transmogrifier/src/collective/transmogrifier/utils.py",
+			"settings":
+			{
+				"buffer_size": 8649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/memo/contenttypes/profiles/default/types.xml",
+			"settings":
+			{
+				"buffer_size": 836,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/src/memo/theme/theme/index.html",
+			"settings":
+			{
+				"buffer_size": 2447,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/muellers/Sources/memo_plone/hilfe.txt",
+			"settings":
+			{
+				"buffer_size": 391,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/src/memo/theme/theme/rules.xml",
+			"settings":
+			{
+				"buffer_size": 8176,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/muellers/Downloads/organizational_unit.xml",
+			"settings":
+			{
+				"buffer_size": 2868,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,8 +661,25 @@
 			"file": "src/memo/contenttypes/content/manuscript.xml",
 			"settings":
 			{
-				"buffer_size": 1795,
+				"buffer_size": 3410,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/memo/contenttypes/content/manuscript.py",
+			"settings":
+			{
+				"buffer_size": 3076,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/muellers/ploneTrainingMasteringPD/buildout/testimport/0/1.json",
+			"settings":
+			{
+				"buffer_size": 3813,
 				"line_ending": "Unix"
 			}
 		}
@@ -605,40 +744,129 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/muellers/Sources/memo_plone"
+		"/C/Users/muellers/Sources/memo_plone",
+		"/C/Users/muellers/Sources/memo_plone/plone",
+		"/C/Users/muellers/Sources/memo_plone/plone/src",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/__pycache__",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/content",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/docs",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/__pycache__",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configs",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/profiles",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/profiles/default",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/profiles/import_content"
 	],
 	"file_history":
 	[
+		"/C/Users/muellers/Sources/memo_plone/manifests/host_setup.sh",
+		"/C/Users/muellers/Sources/memo_plone/manifests/host_scripts/vagrant_scp.sh",
+		"/C/Users/muellers/Sources/memo_plone/manifests/install_plone.sh",
+		"/C/Users/muellers/Sources/memo_plone/manifests/plone.pp",
+		"/C/Users/muellers/Sources/memo_plone/plone/memoDBJson/upgrade_memo.json",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/profiles/import_content/transmogrifier.txt",
+		"/C/Users/muellers/Sources/memo_plone/buildout.sh",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/content/library.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configs/authors.cfg",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/browser/views.py",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/Manuscript.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/content/manuscript.py",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/browser/configure.zcml",
+		"/C/Users/muellers/Sources/memo_plone/plone/buildout.cfg",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/setup.py",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/transmogrify.dexterity/transmogrify/dexterity/pipelines/csvimport.cfg",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/browser/templates/manuscript.pt",
+		"/C/Users/muellers/Sources/memo_plone/plone/develop.cfg",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/plone52.cfg",
+		"/C/Users/muellers/ploneTraining2/Hilfesammlung.txt",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/content/manuscript.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/content/library.py",
+		"/C/Users/muellers/ploneTraining/manifests/plone.pp",
+		"/C/Users/muellers/ploneTraining/Vagrantfile",
+		"/C/Users/muellers/ploneTraining2/Vagrantfile",
+		"/C/Users/muellers/ploneTraining2/manifests/plone.pp",
+		"/C/Users/muellers/ploneTrainingMasteringPD/Vagrantfile",
+		"/C/Users/muellers/ploneTraining2/buildout/buildout.cfg",
+		"/C/Users/muellers/ploneTraining2/manifests/host_setup.sh",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migrate/plone52.cfg",
+		"/C/Users/muellers/Downloads/dexterity_export-20200304134005/types/person.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/content/work.xml",
+		"/C/Users/muellers/Downloads/organizational_unit.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/works.xml",
+		"/C/Users/muellers/Downloads/sample_export/content-import/1/1000.json",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configure.zcml",
+		"/C/Users/muellers/Downloads/sample_export/content-import/0/1.json",
+		"/C/Users/muellers/Sources/memo_plone/Vagrantfile",
+		"/C/Users/muellers/ploneTraining/manifests/packages.pp",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/content/work.py",
+		"/C/Users/muellers/Downloads/person.xml",
+		"/C/Users/muellers/Downloads/Manuscript.xml",
+		"/C/Users/muellers/Downloads/dexterity_export-20200304122907/types/organizational_unit.xml",
+		"/C/Users/muellers/Downloads/dexterity_export-20200304122907/types.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/.mrbob.ini",
+		"/C/Users/muellers/Sources/memo_plone/hilfe.txt",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/categories.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/Work.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/authors.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/MType.xml",
+		"/C/Users/muellers/Downloads/dexterity_export-20200304100002/types/Folder.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/content/author.py",
+		"/C/Users/muellers/Downloads/dexterity_export-20200304100002/types.xml",
+		"/C/Users/muellers/Downloads/Folder.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/libraries.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/content/libraries.py",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/Category.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/Language.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/Library.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/manuscripts.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/Author.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/permissions.zcml",
+		"/C/Users/muellers/Downloads/sources.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/tests/test_ct_library.py",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/src/memo/theme/theme/index.html",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/src/memo/theme/theme/rules.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/src/memo/theme/theme/less/theme-compiled.css",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/src/memo/theme/theme/less/theme.local.less",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/src/memo/theme/theme/less/plone.toolbar.vars.less",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/src/memo/theme/theme/less/custom.less",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/rolemap.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/manuscript.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/profiles/default/types/library.xml",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/src/memo.theme.egg-info/SOURCES.txt",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/src/memo/theme/theme/barceloneta/index.html",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/src/memo/theme/theme/manifest.cfg",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/.gitignore",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/.gitignore",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/interfaces.py",
+		"/C/Users/muellers/Sources/memo/memo.sublime-project",
+		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/memo.contenttypes.sublime-project",
 		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/model/manuscript.xml",
 		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/browser/__init__.py",
 		"/C/Users/muellers/Sources/memo_plone/plone/src/memo.contenttypes/src/memo/contenttypes/configure.zcml",
-		"/C/Users/muellers/Sources/memo_plone/plone/buildout.cfg",
-		"/C/Users/muellers/Sources/memo_plone/plone/develop.cfg",
 		"/C/Users/muellers/Sources/memo_plone/plone/base.cfg",
-		"/C/Users/muellers/Sources/memo_plone/hilfe.txt",
-		"/C/Users/muellers/Sources/memo_plone/buildout.sh",
 		"/C/Users/muellers/Sources/memo_plone/kill_plone.sh",
 		"/C/Users/muellers/Sources/memo_plone/ssh_config.cmd",
 		"/C/Users/muellers/Sources/memo_plone/plonectl.sh",
 		"/C/Users/muellers/ploneTraining/buildout/buildout.cfg",
-		"/C/Users/muellers/ploneTraining/manifests/plone.pp",
 		"/C/Users/muellers/Sources/memo_plone/manifests/windows_host_scripts/plink.cmd",
 		"/C/Users/muellers/Sources/memo_plone/manifests/windows_host_scripts/kill_plone.cmd",
 		"/C/Users/muellers/Sources/memo_plone/manifests/windows_host_scripts/buildout.cmd",
-		"/C/Users/muellers/ploneTraining2/Vagrantfile",
-		"/C/Users/muellers/ploneTraining2/manifests/plone.pp",
-		"/C/Users/muellers/Sources/memo_plone/Vagrantfile",
 		"/C/Users/muellers/ploneTraining2/manifests/packages.pp",
-		"/C/Users/muellers/ploneTraining2/manifests/host_setup.sh",
-		"/C/Users/muellers/Sources/memo_plone/manifests/host_setup.sh",
-		"/C/Users/muellers/Sources/memo_plone/manifests/plone.pp",
 		"/C/Users/muellers/Sources/types.xml",
 		"/C/Users/muellers/ploneTraining2/buildout/src/ploneconf.site/src/ploneconf/site/profiles/default/types.xml",
 		"/C/Users/muellers/Downloads/dexterity_export-20200228081723.zip",
 		"/C/Users/muellers/ploneTraining2/buildout/src/ploneconf.site/setup.py",
 		"/C/Users/muellers/ploneTraining2/buildout/bin/instance",
 		"/C/Users/muellers/vagrant_test1/Vagrantfile",
-		"/C/Users/muellers/ploneTraining/Vagrantfile",
 		"/C/Users/muellers/NTUSER.DAT{1c3790b4-b8ad-11e8-aa21-e41d2d101530}.TMContainer00000000000000000001.regtrans-ms",
 		"/C/Users/muellers/Sources/memo/bitbucket-pipelines.yml",
 		"/C/Users/muellers/Sources/memo/deployment-exclude-list.txt",
@@ -666,87 +894,18 @@
 		"/C/Users/muellers/Sources/memo/system/database/DB_driver.php",
 		"/C/Users/muellers/Sources/memo/system/libraries/Migration.php",
 		"/C/Users/muellers/Sources/memo/application/controllers/Admin.php",
-		"/C/Users/muellers/Sources/memo/system/core/CodeIgniter.php",
-		"/C/Users/muellers/Sources/memo/application/config/migration.php",
-		"/C/Users/muellers/Sources/memo/application/config/dftview.php",
-		"/C/Users/muellers/Sources/memo/application/views/visitor/Head.php",
-		"/C/Users/muellers/Sources/memo/application/views/visitor/Foot.php",
-		"/C/Users/muellers/Sources/memo/application/libraries/Dft_list.php",
-		"/C/Users/muellers/Sources/memo/assets/js/jquery.js",
-		"/C/Users/muellers/Sources/memo/application/config/dftconfig.php",
-		"/C/Users/muellers/Sources/memo/application/views/admin/Head.php",
-		"/C/Users/muellers/Sources/memo/application/config/routes.php",
-		"/C/Users/muellers/Sources/memo/application/views/admin/Login.php",
-		"/C/Users/muellers/Sources/memo/application/views/admin/Panel.php",
-		"/C/Users/muellers/Sources/memo/application/views/viz/BarChart.php",
-		"/C/Users/muellers/Downloads/backup@2017-03-29_15-35-23.sql",
-		"/C/Users/muellers/Downloads/AFTER_MIGRATION.sql",
-		"/C/Users/muellers/Downloads/memo-live-treatises-201511110945 (1).sql",
-		"/C/Users/muellers/Downloads/memo-live-treatises-201511110945.sql",
-		"/C/Users/muellers/Sources/memo/application/controllers/Useradmin.php",
-		"/C/Users/muellers/Sources/memo/application/controllers/Backupadmin.php",
-		"/C/Users/muellers/Sources/memo/application/controllers/Ajaxadmin.php",
-		"/C/Users/muellers/Sources/memo/application/libraries/Dft_dashboard.php",
-		"/C/Users/muellers/Sources/saw_regelkommentare/.htaccess",
-		"/C/Users/muellers/Sources/saw_regelkommentare/index.php",
-		"/C/Users/muellers/Sources/saw_regelkommentare/application/models/Dftmodel.php",
-		"/C/Users/muellers/Sources/memo/application/config/development/config.php",
-		"/C/Users/muellers/Sources/memo/index.php",
-		"/C/Users/muellers/SAW-Cloud/Documents/memo - klöster im Hochmittelalter/test_sources from server/index.php",
-		"/C/Users/muellers/SAW-Cloud/Documents/memo - klöster im Hochmittelalter/test_sources from server/.htaccess",
-		"/C/Users/muellers/SAW-Cloud/Documents/memo - klöster im Hochmittelalter/configs/testserver/saw_regelkommentare/testing/database.php",
-		"/C/Users/muellers/Sources/saw_regelkommentare/application/config/development/config.php",
-		"/C/Users/muellers/SAW-Cloud/Documents/memo - klöster im Hochmittelalter/configs/testserver/saw/testing/config.php",
-		"/C/Users/muellers/SAW-Cloud/Documents/memo - klöster im Hochmittelalter/configs/testserver/saw_regelkommentare/testing/config.php",
-		"/C/Users/muellers/SAW-Cloud/Documents/memo - klöster im Hochmittelalter/configs/testserver/saw/testing/database.php",
-		"/C/Users/muellers/Sources/memo/application/migrations/20200220120000_UpgradeIonAuth3.php",
-		"/C/Users/muellers/Sources/memo/application/migrations/migrateIonAuth.sql",
-		"/C/Users/muellers/Sources/memo/application/config/development/database.php",
-		"/C/xampp5/htdocs/saw_regelkommentare/application/config/development/config.php",
-		"/C/Users/muellers/Sources/memo/memo.sublime-project",
-		"/C/xampp5/htdocs/saw_regelkommentare/application/config/development/database.php",
-		"/C/Users/muellers/Sources/saw_regelkommentare/application/config/development/database.php",
-		"/C/xampp5/htdocs/saw/application/config/development/config.php",
-		"/C/Users/muellers/Sources/memo/version.txt",
-		"/C/Users/muellers/SAW-Cloud/Documents/memo - klöster im Hochmittelalter/test_sources from server/application/.htaccess",
-		"/C/Users/muellers/Sources/memo/application/models/DFTModel.php",
-		"/C/Users/muellers/SAW-Cloud/Documents/memo - klöster im Hochmittelalter/prod_sources from server/saw/application/config/routes.php",
-		"/C/Users/muellers/Sources/memo/application/config/config.php",
-		"/C/Users/muellers/Sources/memo/application/migrations/20200220_UpgradeIonAuth3.php",
-		"/C/Users/muellers/Sources/memo/system/database/DB_forge.php",
-		"/C/Users/muellers/Sources/memo/application/views/admin/Empty.php",
-		"/C/Users/muellers/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
-		"/C/Users/muellers/Sources/memo/system/core/Model.php",
-		"/C/Users/muellers/Sources/memo/application/config/development/databaseO.php",
-		"/C/Users/muellers/Sources/memo/application/libraries/Dftaccesscontroller.php",
-		"/C/Users/muellers/Sources/memo/application/config/development/configN.php",
-		"/C/Users/muellers/Sources/memo/upgradeCodeIgniter/CodeIgniter-2.1.4/system/database/drivers/mysqli/mysqli_driver.php",
-		"/C/Users/muellers/Sources/memo/assets/js/form_helper.js",
-		"/C/Users/muellers/Sources/memo/application/libraries/DFTLib.php",
-		"/C/Users/muellers/Sources/memo/upgradeCodeIgniter/DFT_explanations.txt",
-		"/C/Users/muellers/Sources/memo/upgradeCodeIgniter/Ion_Auth_upgrade/benedmunds-CodeIgniter-Ion-Auth-467f2bc/sql/migrating_from_ionauth2/migrate.sql",
-		"/C/Users/muellers/Sources/memo/application/views/admin/ImportForm.php",
-		"/C/Users/muellers/Sources/memo/system/core/Loader.php",
-		"/C/Users/muellers/Sources/memo/application/config/database.php",
-		"/C/Users/muellers/Sources/memo/system/database/drivers/mysql/mysql_driver.php",
-		"/C/Users/muellers/Sources/memo/application/libraries/DFTList.php",
-		"/C/Users/muellers/Sources/memo/application/views/admin/ConnectionLiveSearch.php",
-		"/C/Users/muellers/Sources/memo/system/database/DB_query_builder.php",
-		"/C/Users/muellers/Sources/memo/application/views/admin/ConnectionLiveSearchReturn.php",
-		"/C/Users/muellers/Sources/memo/application/views/dft/DFTList.php",
-		"/C/Users/muellers/Sources/memo/system/core/Config.php",
-		"/C/Users/muellers/Sources/memo/system/helpers/url_helper.php",
-		"/C/Users/muellers/Sources/memo/upgradeCodeIgniter/CodeIgniterUpgradeManual.txt"
+		"/C/Users/muellers/Sources/memo/system/core/CodeIgniter.php"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
 		"height": 135.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -754,6 +913,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"... ",
+			"migration",
+			"collective.transmogrifier-1.5.2",
+			"register",
+			"z3c",
+			"plone.toolbar.vars",
+			"tool"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -776,19 +942,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/memo/contenttypes/profiles/default/types.xml",
+					"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configs/base.cfg",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 363,
+						"buffer_size": 1462,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								168,
-								168
+								178,
+								178
 							]
 						],
 						"settings":
@@ -799,27 +965,1329 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										53,
-										59
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										53,
-										59
-									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/INI/INI.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configs/manuscript.cfg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								503,
+								503
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/INI/INI.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/memo/contenttypes/content/work.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4992,
+								4992
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1530.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configs/authors.cfg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 440,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/INI/INI.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configs/work.cfg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/INI/INI.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configure.zcml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1818,
+								1838
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/configs/libraries.cfg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/INI/INI.tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.migration/src/memo/migration/import/blueprints.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2553,
+								2553
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/muellers/Sources/memo_plone/Vagrantfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/muellers/Sources/memo_plone/manifests/install_plone.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/muellers/Sources/memo_plone/plone/src/collective.transmogrifier/src/collective/transmogrifier/utils.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2073,
+								2075
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/memo/contenttypes/profiles/default/types.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								206
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/src/memo/theme/theme/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2023,
+								2023
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 568,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/muellers/Sources/memo_plone/hilfe.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								390,
+								332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Users/muellers/Sources/memo_plone/plone/src/memo.theme/src/memo/theme/theme/rules.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								447,
+								447
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 954.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/Users/muellers/Downloads/organizational_unit.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1532,
+								1532
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
 								},
 								"unmatched":
 								{
@@ -962,24 +2430,200 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "src/memo/contenttypes/interfaces.py",
+					"buffer": 16,
+					"file": "src/memo/contenttypes/content/manuscript.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 266,
+						"buffer_size": 3410,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								266,
-								266
+								1337,
+								1337
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "src/memo/contenttypes/content/manuscript.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2064,
+								2064
 							]
 						],
 						"settings":
@@ -1135,27 +2779,27 @@
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/memo/contenttypes/content/manuscript.xml",
+					"buffer": 18,
+					"file": "/C/Users/muellers/ploneTrainingMasteringPD/buildout/testimport/0/1.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1795,
+						"buffer_size": 3813,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								915,
-								915
+								720,
+								720
 							]
 						],
 						"settings":
@@ -1239,27 +2883,12 @@
 							{
 								"close":
 								{
-									"1":
-									[
-										1789,
-										1794
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										908,
-										913
-									]
 								},
 								"unmatched":
 								{
@@ -1323,13 +2952,13 @@
 								"bh_square_close",
 								"bh_square_content"
 							],
-							"syntax": "Packages/XML/XML.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 16,
 					"type": "text"
 				}
 			]
@@ -1352,11 +2981,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1412,7 +3048,7 @@
 		],
 		"width": 828.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

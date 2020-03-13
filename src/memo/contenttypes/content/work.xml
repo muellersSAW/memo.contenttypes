@@ -22,7 +22,7 @@
         <description i18n:translate="">Select the language of the work</description>
         <required>False</required>
         <title i18n:translate="">Language</title>
-        <vocabulary>collective.taxonomy.ou_types</vocabulary>
+        <vocabulary>plone.app.vocabularies.AvailableContentLanguages</vocabulary>
     </field>
     <field name="author" type="z3c.relationfield.schema.RelationChoice">
       <description/>
@@ -139,7 +139,7 @@
             <title>Basic content</title>
             <required>False</required>
         </field>
-        <field name="incpit" type="plone.app.textfield.RichText">
+        <field name="incipit" type="plone.app.textfield.RichText">
             <description></description>
             <title>Incipit</title>
             <required>False</required>

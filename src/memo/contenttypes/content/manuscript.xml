@@ -5,22 +5,36 @@
     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
     i18n:domain="memo.contenttypes">
   <schema>
+    <field name="minions" type="z3c.relationfield.schema.RelationList">
+      <description/>
+      <required>False</required>
+      <title>Minions</title>
+      <value_type type="z3c.relationfield.schema.RelationChoice">
+        <title i18n:translate="">Relation Choice</title>
+        <portal_type>
+          <element>Library</element>
+        </portal_type>
+      </value_type>
+    </field>
+
+
+    <field name="type" type="zope.schema.Choice">
+      <description i18n:translate="">Select the type of the manuscript</description>
+      <required>False</required>
+      <title i18n:translate="">Type</title>
+      <vocabulary>collective.taxonomy.manuscripttype</vocabulary>
+    </field>
     <field name="signature" type="zope.schema.TextLine">
-        <description>Signature</description>
+        <description></description>
         <title>Signature</title>
         <required>True</required>
     </field>
     <field name="old_signature" type="zope.schema.TextLine">
-        <description>old signature</description>
+        <description></description>
         <title>Old signature</title>
         <required>False</required>
     </field>
-    <field name="library" type="z3c.relationfield.schema.RelationChoice">
-      <description/>
-      <required>False</required>
-      <title>Library</title>
-      <source>plone.formwidget.contenttree.obj_path_src_binder</source>
-    </field>
+
     <field name="origin" type="zope.schema.TextLine">
         <description></description>
         <title>Origin</title>
@@ -33,12 +47,12 @@
     </field>
     <field name="material_description" type="zope.schema.TextLine">
         <description></description>
-        <title>material description</title>
+        <title>Material description</title>
         <required>False</required>
     </field>
      <field name="folio" type="zope.schema.TextLine">
         <description></description>
-        <title>folio</title>
+        <title>Folio</title>
         <required>False</required>
     </field>
     <field name="literature" type="zope.schema.FrozenSet">
