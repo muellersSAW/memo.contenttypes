@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="ploneconf.site">
+
+  <plone:behavior
+      title="SqlIded"
+      name="memo.sqlided"
+      description="Adding id field for sql ids"
+      provides=".sqlided.IIded"
+      />
+
+</configure>
