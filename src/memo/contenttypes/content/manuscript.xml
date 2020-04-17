@@ -22,7 +22,7 @@
       <description i18n:translate="">Select the type of the manuscript</description>
       <required>False</required>
       <title i18n:translate="">Type</title>
-      <vocabulary>collective.taxonomy.manuscripttype</vocabulary>
+      <vocabulary>memo.contenttypes.TestVocab</vocabulary>
     </field>
     <field name="signature" type="zope.schema.TextLine">
         <description></description>

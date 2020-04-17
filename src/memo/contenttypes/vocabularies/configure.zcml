@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="memo.contenttypes">
+
+    <!-- -*- extra stuff goes here -*- -->
+
+    <utility
+        component=".test_vocab.TestVocabFactory"
+        name="memo.contenttypes.TestVocab"
+    />
+
+
+</configure>
