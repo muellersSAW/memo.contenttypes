@@ -55,16 +55,15 @@ class IManuscript(model.Schema):
     )
 
 
-    related_obj = RelationChoice(
-    title=_(u"Referenziertes Objekt"),
-    source=ObjPathSourceBinder(
-        portal_type="MyRelatedObjType",
-        navigation_tree_query=dict(
-            portal_type=["MyRelatedObjType",],
-            path={ "query": '/ub/ub-db' })
-    ),
-    required=False,
-)
+    # related_obj = RelationChoice(
+    # title=_(u"Referenziertes Objekt"),
+    # source=ObjPathSourceBinder(
+    #     portal_type="MyRelatedObjType",
+    #     navigation_tree_query=dict(
+    #         portal_type=["MyRelatedObjType",],
+    #         path={ "query": '/ub/ub-db' })
+    # ),
+    # required=False,)
 
 
     # directives.widget(level=RadioFieldWidget)

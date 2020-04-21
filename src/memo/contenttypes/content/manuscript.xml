@@ -5,17 +5,7 @@
     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
     i18n:domain="memo.contenttypes">
   <schema>
-    <field name="minions" type="z3c.relationfield.schema.RelationList">
-      <description/>
-      <required>False</required>
-      <title>Minions</title>
-      <value_type type="z3c.relationfield.schema.RelationChoice">
-        <title i18n:translate="">Relation Choice</title>
-        <portal_type>
-          <element>Library</element>
-        </portal_type>
-      </value_type>
-    </field>
+
 
 
     <field name="type" type="zope.schema.Choice">
@@ -55,7 +45,7 @@
         <title>Folio</title>
         <required>False</required>
     </field>
-    <field name="literature" type="zope.schema.FrozenSet">
+    <field name="literature" type="zope.schema.Set">
       <description/>
       <required>False</required>
       <title i18n:translate="">Literature</title>
